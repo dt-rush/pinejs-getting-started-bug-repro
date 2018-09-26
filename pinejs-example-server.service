@@ -1,0 +1,13 @@
+[Unit]
+Description=pinejs-example-server
+Requires=postgresql.service
+After=postgresql.service
+
+[Service]
+WorkingDirectory=/usr/src/app
+ExecStart=/usr/src/app/entry.sh
+Restart=always
+SyslogIdentifier=pinejs-example-server
+
+[Install]
+WantedBy=basic.target

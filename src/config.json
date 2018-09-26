@@ -1,0 +1,12 @@
+{
+	"models": [{
+			  "modelName": "Example",
+			  "modelFile": "example.sbvr",
+			  "apiRoot": "example"
+	}],
+	"users": [{
+			 "username": "guest",
+			 "password": " ",
+			 "permissions": [ "resource.all" ]
+	}]
+}
