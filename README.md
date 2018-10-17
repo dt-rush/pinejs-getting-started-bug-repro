@@ -1,6 +1,9 @@
 pinejs-getting-started-bug-repro
 ===
 
+**THIS ISSUE IS NOW FIXED**
+As of [balena-io-modules/odata-to-abstract-sql/pull/26](https://github.com/resin-io-modules/odata-to-abstract-sql/pull/26)
+
 ## 1. Rationale
 
 When running the "getting started" example from the PineJS repro, I observed
